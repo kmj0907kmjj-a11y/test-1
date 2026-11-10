@@ -1,0 +1,95 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>달빛카페 메뉴판</title>
+  <style>
+    body {
+      background-color: #fcfbf7;
+      color: #222222;
+      font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+      margin: 0;
+      padding: 24px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    header {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #1b2a4a;
+      margin: 0;
+      word-break: keep-all;
+    }
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 400px;
+    }
+    .menu-item {
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      padding: 24px 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #eae6df;
+    }
+    .name {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #333333;
+    }
+    .price {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #8b5a2b;
+    }
+    footer {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: #777777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌙 달빛카페</h1>
+  </header>
+
+  <main>
+    <ul class="menu-list">
+      <li class="menu-item">
+        <span class="name">아메리카노</span>
+        <span class="price">3,500원</span>
+      </li>
+      <li class="menu-item">
+        <span class="name">카페라떼</span>
+        <span class="price">4,000원</span>
+      </li>
+      <li class="menu-item">
+        <span class="name">딸기케이크</span>
+        <span class="price">5,500원</span>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>가상의 가게입니다</p>
+  </footer>
+
+</body>
+</html>
